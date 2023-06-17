@@ -1,0 +1,68 @@
+.gradient-background {
+/*   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); */
+  background: linear-gradient(300deg, yellow, #ff4c68, burlywood);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#testimonial {
+    background-color : whitesmoke;
+    text-align : center;
+    padding : 50px;
+}
+
+
+#testimonial img {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.flex-cards {
+    display : flex;
+    justify-content: center;
+    gap : 20px;
+    padding : 25px;
+}
+
+.card {
+    width : 18rem;
+}
+
+.card-text>strong {
+    font-size: 40px;
+}
+
+#pricing {
+    padding : 50px;
+    text-align : center;
+}
+
+
+.logo-center>div div {
+
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
